@@ -1,15 +1,18 @@
 const NavBar = () => {
     return (
-        <header>
+        <header className="page-header">
             <navbar>
-                <h1>Veotex</h1>
-                <ul className="header__navbar">
-                    <li> Productos </li>
-                    <li> Nosotros </li>
-                    <li> Contacto </li>            
+                
+                <ul className="nav nav-pills pull-right">
+                    <li class="active"><a href="#">Productos</a></li>
+                    <li><a href="#">Nosotros</a></li>
+                    <li><a href="#">Contacto</a></li>
                 </ul>
+                <h3>Veotex</h3>
+
             </navbar>
         </header>
+        
     )
 }
 
