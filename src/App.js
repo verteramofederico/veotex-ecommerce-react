@@ -2,9 +2,12 @@ import NavBar from './components/NavBar';
 
 const App = () => {
   return (
-    <>
-    <NavBar/>
-    </>
+    <div class="container">
+      <>
+        <NavBar/>
+      </>
+    </div>
+    
   )
 }
 

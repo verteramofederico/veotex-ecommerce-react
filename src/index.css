@@ -1,8 +1,5 @@
-body {
-  padding: 25px;
-}
 
 .header__navbar {
   display: flex;
-  justify-content: space-between
+  justify-content: space-around
 }
