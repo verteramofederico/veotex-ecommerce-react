@@ -1,16 +1,15 @@
 import Item from './Item';
 
 
-const ItemList = () => {
+const ItemList = (props) => {
 
-    function itemList(items) {
-        items.map(item => <li>{item.description}</li>)
+    function itemList(props) {
+        props.ItemsArray.map(item => <li>{item.description}</li>)
     }
 
     return (
             <>     
-            <p>prueba</p> 
-            <ul>{ItemList}</ul>                 
+            <Item item/>            
 
             </>    
             
