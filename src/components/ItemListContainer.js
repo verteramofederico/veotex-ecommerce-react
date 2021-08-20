@@ -1,4 +1,6 @@
 import ItemCount from './ItemCount';
+import ItemList from './ItemList';
+
 
 const Main = (props) => {
     return (
@@ -9,6 +11,7 @@ const Main = (props) => {
             </section>
             
             <ItemCount stock="4" initial="1" onAdd={() =>{}} /> 
+            <ItemList/>
             </>    
             
     )

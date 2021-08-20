@@ -16,7 +16,7 @@ const ItemCount = (props) => {
         if (props.stock == 0) {
             console.log("no hay stock")
             }
-        if (contador > 0) {
+        if (contador > 1) {
             setContador(contador - 1)
             } } 
 
