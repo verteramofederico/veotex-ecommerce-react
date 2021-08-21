@@ -1,18 +1,16 @@
-import Item from './Item';
+import Item from './Item'
 
 
 const ItemList = (props) => {
+    console.log(props.ItemsArray)
 
-    function itemList(props) {
-        props.ItemsArray.map(item => <li>{item.description}</li>)
-    }
+    return (            
+            props.ItemsArray.length == 0 ? (<h1>Cargando...</h1>
+            ) : (                
+                    props.ItemsArray.map(item => 
+                        <Item {item} />)                                    
+            )
 
-    return (
-            <>     
-            <Item item/>            
-
-            </>    
-            
     )
 }
 

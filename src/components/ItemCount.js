@@ -1,11 +1,11 @@
-import {useState} from "react"
+    import {useState} from "react"
 
 const ItemCount = (props) => {
 
     const [ contador, setContador ] = useState(props.initial) 
 
     function aumentar () {
-        if (props.stock == 0) {
+        if (props.stock === 0) {
             console.log("no hay stock")
             }
         if (contador < props.stock) {

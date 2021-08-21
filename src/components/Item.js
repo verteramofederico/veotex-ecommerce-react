@@ -1,12 +1,10 @@
 const Item = (props) => {
 
-    function Item(props) {
-        
-    }
-
     return (
             <>         
-            {props}            
+            <h3>{props.item.title}</h3> 
+            <p>{props.item.description}</p>
+            <h5>{props.item.price}</h5>               
             </>    
             
     )
