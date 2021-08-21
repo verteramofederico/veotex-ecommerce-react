@@ -2,13 +2,13 @@ import Item from './Item'
 
 
 const ItemList = (props) => {
-    console.log(props.ItemsArray)
+    console.log(props.items)
 
-    return (            
-            props.ItemsArray.length == 0 ? (<h1>Cargando...</h1>
+    return (      
+            props.items.length == 0 ? (<h1>Cargando...</h1>
             ) : (                
-                    props.ItemsArray.map(item => 
-                        <Item {item} />)                                    
+                    props.items.map(item => 
+                        <Item item={item} />)                                    
             )
 
     )
