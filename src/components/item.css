@@ -1,0 +1,12 @@
+.item {
+    margin: 30px;
+}
+
+.itemTitle {
+    color: var(--headerColor);
+}
+
+.itemDetail {
+    margin: auto;
+    text-align: center;
+}

@@ -1,11 +1,13 @@
+import "./item.css"
+
 const Item = (props) => {
 
     return (
-            <>         
-            <h3>{props.item.title}</h3> 
-            <p>{props.item.description}</p>
-            <h5>${props.item.price}</h5>            
-            </>    
+            <section className="item">
+                <h3 className="itemTitle">{props.item.title}</h3> 
+                <p className="itemDescription">{props.item.description}</p>
+                <h5 className="itemPrice">${props.item.price}</h5>                          
+            </section>
             
     )
 }

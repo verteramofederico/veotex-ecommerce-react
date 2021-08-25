@@ -1,14 +1,16 @@
 import NavBar from './components/NavBar';
 import ItemListContainer from './components/ItemListContainer';
+import ItemDetailContainer from './components/itemDetailContainer';
 import Footer from './components/Footer';
+import bannerWelcome from './components/bannerWelcome';
 
-const App = () => {
-    
+const App = () => {    
   return (
     <div className="container">
       <NavBar/>
-
-      <ItemListContainer greeting="bienvenido"/>
+      <bannerWelcome greeting="bienvenido" /> 
+      <ItemListContainer />
+      <ItemDetailContainer/> 
 
       <Footer/>
 
